@@ -65,7 +65,7 @@ namespace DIO.Bank
         }
 
         public static void Depositar()
-		{
+	{
             try
             {
                 Console.Write("Digite o número da conta: ");
@@ -80,10 +80,10 @@ namespace DIO.Bank
             {
                 Console.Write(string.Concat(Resource.ERRO, Resource.PULAR_LINHA));
             }
-		}
+	}
 
         public static void Transferir()
-		{
+	{
             try
             {
                 Console.Write("Digite o número da conta de origem: ");
@@ -101,6 +101,6 @@ namespace DIO.Bank
             {
                 Console.Write(string.Concat(Resource.ERRO,Resource.PULAR_LINHA));
             }
-		}
+	}
     }
 }
